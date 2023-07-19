@@ -1,9 +1,12 @@
 GIT AND GITHUB
 
-Github is only a place where we can upload our changes where other people can access it.Git is a open source distributed version control system.We can use git without using any other git services and it can be used privately and publicly.Git can be downloaded from git scm and it will be automatically integrate with the system.
+Github is only a place where we can upload our changes where other people can access it.Git is a open source distributed version control system.
+We can use git without using any other git services and it can be used privately and publicly.Git can be downloaded from git scm and it will be automatically 
+integrate with the system.
 
 Process of working in git
-Firstly we have working directory then we have staging directory which is middle point between saving it and working directory and is considered as preview of our next commit and commits are saved in repository.
+Firstly we have working directory then we have staging directory which is middle point between saving it 
+and working directory and is considered as preview of our next commit and commits are saved in repository.
 
 git bash commands
 1.git init- creates a hidden file(it is a local repository)
@@ -16,6 +19,7 @@ git bash commands
 
 5.git log- shows all the commits which are made
 
-6.git remote add origin LINK- with this command you can upload/add the local repository to the online repository and origin is a keyword and we need to get the link from github to add it.
+6.git remote add origin LINK- with this command you can upload/add the local repository to the online repository 
+and origin is a keyword and we need to get the link from github to add it.
 
 
