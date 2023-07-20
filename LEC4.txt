@@ -46,4 +46,4 @@ FEATURES OF JAVA:
 10.DISTRIBUTED:
 
 --> In distributed computing several computers work together on a network.
---> 
+
