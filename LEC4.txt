@@ -1,0 +1,49 @@
+FEATURES OF JAVA:
+
+1.SIMPLE:
+
+--> Java syntax is very easy to learn and it is based on syntax of c++.
+--> Java has an Automatic Garbage collector which will remove unreferenced/unnamed objects automatically and frees programmers from memory management responsibilities.
+
+2.OBJECT ORIENTED:
+
+--> Java is an object oriented programming language and it provides great flexibility,modularity,clarity,reusability and OOPs is more secure as it provides data hiding features.
+
+3.PLATFORM INDEPENDENT:
+
+--> Java has a "write once and run anywhere" feature.
+--> Additional layer in java is added to achieve platform independence.This additional layer is known as byte code or class file and we have different JVM for different OS.
+--> So by using byte code and different JVM for different OS java achieves its platform independence.
+
+4.ARCHITECHTURE NEUTRAL:
+
+--> There are no architechural dependent features in java such as the size of primitive data types is fixed.
+
+5.PORTABLE:
+
+--> Platform independent and architechtural neutral features of java make it portable and also we can carry the java bytecode to any platform.
+
+6.ROBUST:
+
+--> Robust means reliable.In Java we have exception handling mechanism which catches and responds to it so that a program can continue its normal execution.
+--> Java doesnt support pointers thereby eliminating the possibilities of overwriting memory and corrupt data.
+
+7.SECURE:
+
+--> Java is known for its security and java proframs runs under area known as sand box.
+--> Java uses a public key encryption system to allow the java application transmit over the internet in the secured encrpted form.
+
+8.HIGH PERFORMANCE:
+
+--> Java is not as fast as compiled languages such as c/c++ but its faster than other interpreted languagues.
+--> JVm uses new technology known as just in time compilation(JIT) it converts byte code to machine code on demand basis.
+
+9.MULTI-THREADED:
+
+--> Multithreading means breaking one program into multiple programs to perform independently at the same time.It is particularly usefful in server applications.
+-->In java threads can be used in two ways by extending thread class and by implementing runnable interface.
+
+10.DISTRIBUTED:
+
+--> In distributed computing several computers work together on a network.
+--> 
