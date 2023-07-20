@@ -1,0 +1,23 @@
+OPERATORS AND OPERANDS:
+
+int r= a + j
+here a,j are operands
+and '+' is the operator
+
+INCREMENT AND DECREMENT OPERATORS:
+
+x++ --> operation is performed first then the value is incremented
+
+++x --> value is incremented first then the operation is performed
+
+x-- --> operation is performed first then the value is decremented
+
+--x --> value is decremented first then the operation is performed
+
+int i=5;
+int j=i++;
+System.out.println("I is :" + i +",J is :" + j);
+
+int q=5;
+int p=++q;
+System.out.println("I is :" + q+",J is :" + p);
