@@ -1,0 +1,71 @@
+INTERFACE STUDY
+
+interface shape {
+    double pi = 3.14; // public, static, final
+
+    double getSquare(double r);// public and abstract
+}
+
+class circle implements shape {
+    public double getSquare(double r) {
+        return r * r;
+    }
+
+    void fun() {
+        System.out.println("hey, I implemented an interface named Shape");
+    }
+}
+
+public class InterfaceStudy {
+    public static void main(String args[]) {
+        circle c = new circle();
+        System.out.println(c.getSquare(5));
+        c.fun();
+    }
+}
+
+MULTIPLE INHERITANCE STUDY
+
+interface M {
+    int x = 10;
+
+    void fun();
+}
+
+interface N {
+    int x = 20;
+
+    void fun();
+}
+
+class C implements M, N {
+    public void fun() {
+        System.out.println("Hello, I'm function C");
+        System.out.println(M.x);
+        System.out.println(N.x);
+        System.out.println(M.super.hashCode());
+        System.out.println(N.super.hashCode());
+    }
+}
+
+interface O extends M, N {
+    void fun();
+}
+
+class D implements O {
+    public void fun() {
+        System.out.println("Hello, I'm function D");
+    }
+
+}
+
+public class MultipleInheritanceStudy {
+    public static void main(String[] args) {
+        C c = new C();
+        c.fun();
+
+        D d = new D();
+        d.fun();
+    }
+
+}
